@@ -7,8 +7,11 @@
             //CountFrequencyOfElement c1 = new CountFrequencyOfElement();
             //c1.FrequencyCount();
 
-            DuplicateArrayItem d1 = new DuplicateArrayItem();
-            d1.DuplicateElement();
+            //DuplicateArrayItem d1 = new DuplicateArrayItem();
+            //d1.DuplicateElement();
+
+            MinMax m1 = new MinMax();
+            m1.MinMaxElement();
         }
 
     }
