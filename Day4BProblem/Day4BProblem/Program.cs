@@ -19,8 +19,11 @@
             //StarPattern s1 = new StarPattern();
             //s1.DecreasingStarPattern();
 
-            Hollow h1 = new Hollow();
-            h1.HollowRectangle();
+            //Hollow h1 = new Hollow();
+            //h1.HollowRectangle();
+
+            SumOfAllDigit s1 = new SumOfAllDigit();
+            s1.SumOfDigit();
         }
 
     }
