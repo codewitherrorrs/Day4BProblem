@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace Day4BProblem
 {
-    internal class DuplicateArrayItem
+    public class DuplicateArrayItem
     {
+        public void DuplicateElement()
+        {
+            int[] arr = { 10, 20, 25, 10, 26, 20, 25 };
+            int len = arr.Length;
+            int count = 0;
+            for (int i = 0; i < len; i++)
+            {
+                for (int j = i + 1; j < len; j++)
+                {
+                    if (arr[i] == arr[j])
+                    {
+                        count++;
+                        break;
+                    }
+                }
+            }
+            Console.WriteLine("Total number of duplicate elements: " + count);
+            Console.ReadKey();
+
+        }
     }
 }
