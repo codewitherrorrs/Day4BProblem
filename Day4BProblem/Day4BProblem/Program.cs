@@ -10,8 +10,14 @@
             //DuplicateArrayItem d1 = new DuplicateArrayItem();
             //d1.DuplicateElement();
 
-            MinMax m1 = new MinMax();
-            m1.MinMaxElement();
+            //MinMax m1 = new MinMax();
+            //m1.MinMaxElement();
+
+            //ReverseString r1 = new ReverseString();
+            //r1.Reverse();
+
+            StarPattern s1 = new StarPattern();
+            s1.DecreasingStarPattern();
         }
 
     }
