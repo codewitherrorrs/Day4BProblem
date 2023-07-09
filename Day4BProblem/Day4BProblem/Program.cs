@@ -16,8 +16,11 @@
             //ReverseString r1 = new ReverseString();
             //r1.Reverse();
 
-            StarPattern s1 = new StarPattern();
-            s1.DecreasingStarPattern();
+            //StarPattern s1 = new StarPattern();
+            //s1.DecreasingStarPattern();
+
+            Hollow h1 = new Hollow();
+            h1.HollowRectangle();
         }
 
     }
